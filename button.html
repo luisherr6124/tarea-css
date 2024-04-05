@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrolo Button</title>
+    <meta name="description" content="Aca vas a poder encontrar la solucion de la tarea" />
+    <meta name="keywords" content="css,tarea,grid,flex,luis Miguel,button">
+    <meta name="author" content="Luis Miguel Herrera Vasquez">
+    <link rel="stylesheet" href="./assest/css/button.css">
+    <link rel="stylesheet" href="./assest/css/globals.css">
+
+    <style>
+        /* aca se aplica el flex para que el navbar quede en el medio de la pagina */
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 16px 24px 16px 24px;
+    }
+    body {
+        background-color:rgb(234, 231, 231);;
+        font-family: system-ui;
+        }
+    a {
+        text-decoration-line: none;
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+        transition: color 0.2s;
+    }
+
+    a:hover {
+        color:  rgb(98, 117, 125);
+    }
+
+    footer {
+        font-weight: 500;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 16px;
+        color: rgb(0, 0, 0);
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <!-- profe en los navbar de cada pagina voy poniendo los solicitados en la practica con flex (este es el que va en el medio)-->
+        <ul class="menu-nav">
+            <li>
+                <a href="./assest/index.html">Inicio </a>
+            </li>
+            <li>
+                <a href="../card.html">Card</a>
+            </li>
+            <li>
+                <a href="./button.html">Button</a>
+            </li>
+            <li>
+                <a href="./reproductor.html">Reproductor</a>
+            </li>
+            <li>
+                <a href="./grid.html">Grid</a>
+            </li>
+            <li>
+                <a href="./gridtemplate.html">grid-template-area</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="buttoncenter">
+        <button class="boton">Click Me</button>
+    </main>
+
+    <footer>
+        <p>&copy; Luis Miguel Herrera Vasquez- <strong>VLA</strong></p>
+    </footer>
+</body>    
